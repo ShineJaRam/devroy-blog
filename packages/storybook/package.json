@@ -58,6 +58,7 @@
     "@storybook/addon-docs": "^6.3.12",
     "@storybook/addon-essentials": "^6.3.12",
     "@storybook/addon-links": "^6.3.12",
+    "@storybook/client-api": "^6.3.12",
     "@storybook/node-logger": "^6.3.12",
     "@storybook/preset-create-react-app": "^3.2.0",
     "@storybook/react": "^6.3.12",
@@ -65,5 +66,8 @@
     "eslint-config-react-app": "^6.0.0",
     "eslint-plugin-storybook": "^0.4.1",
     "prettier": "^2.4.1"
+  },
+  "resolutions": {
+    "@storybook/preset-create-react-app": "portal:/PATH_TO_SB_PRESETS_REPO/packages/preset-create-react-app"
   }
 }
