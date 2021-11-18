@@ -1,1 +1,14 @@
-{}
+{
+  "..\\..\\..\\.yarn\\__virtual__\\next-virtual-4687ef5de7\\0\\cache\\next-npm-12.0.4-fcbd6e5d3e-b9711e7d42.zip\\node_modules\\next\\dist\\client\\index.js -> ../pages/_error": {
+    "id": "../../.yarn/__virtual__/next-virtual-4687ef5de7/0/cache/next-npm-12.0.4-fcbd6e5d3e-b9711e7d42.zip/node_modules/next/dist/pages/_error.js",
+    "files": [
+      "static/chunks/_yarn___virtual___next-virtual-4687ef5de7_0_cache_next-npm-12_0_4-fcbd6e5d3e-b9711e7d42_zip_n-8f4212.js"
+    ]
+  },
+  "..\\..\\..\\.yarn\\__virtual__\\next-virtual-4687ef5de7\\0\\cache\\next-npm-12.0.4-fcbd6e5d3e-b9711e7d42.zip\\node_modules\\next\\dist\\client\\next-dev.js -> ./dev/noop": {
+    "id": "../../.yarn/__virtual__/next-virtual-4687ef5de7/0/cache/next-npm-12.0.4-fcbd6e5d3e-b9711e7d42.zip/node_modules/next/dist/client/dev/noop.js",
+    "files": [
+      "static/chunks/_yarn___virtual___next-virtual-4687ef5de7_0_cache_next-npm-12_0_4-fcbd6e5d3e-b9711e7d42_zip_n-1f4de0.js"
+    ]
+  }
+}
