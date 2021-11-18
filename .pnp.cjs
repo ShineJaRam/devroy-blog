@@ -6086,13 +6086,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@csstools/normalize.css", "npm:10.1.0"]
           ],
           "linkType": "HARD",
-        }],
-        ["npm:12.0.0", {
-          "packageLocation": "./.yarn/cache/@csstools-normalize.css-npm-12.0.0-b25d07810f-fbef0f7fe4.zip/node_modules/@csstools/normalize.css/",
-          "packageDependencies": [
-            ["@csstools/normalize.css", "npm:12.0.0"]
-          ],
-          "linkType": "HARD",
         }]
       ]],
       ["@cypress/request", [
@@ -14764,12 +14757,12 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["next", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:12.0.4"],
             ["normalize.css", "npm:8.0.1"],
             ["postcss", "npm:8.3.11"],
-            ["postcss-normalize", "virtual:e39e6f7b80c364d2b2d86942b9327a194dd32b9253b61b3dbefb372e9915b448e98b6642dbbb6a6c40e0ebce5446bf3cdd4c0f2af9ab2089fc965bf16febee78#npm:10.0.1"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:17.0.2"],
             ["react-hook-form", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:7.19.5"],
             ["react-is", "npm:17.0.2"],
             ["react-redux", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:7.2.6"],
+            ["sanitize.css", "npm:13.0.0"],
             ["tailwindcss", "virtual:4c0943788cfbf62ff7a2196f6aa3ce7bca1933cf17f07902a2ec4e1be3657bd133f3c4b538e2ab5b031cc605a6626429965a8888d48307375f87badbb62791c5#npm:2.2.19"],
             ["twin.macro", "npm:2.8.1"],
             ["typescript", "patch:typescript@npm%3A4.4.4#~builtin<compat/typescript>::version=4.4.4&hash=ddd1e8"]
@@ -27644,30 +27637,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           ],
           "linkType": "SOFT",
         }],
-        ["npm:4.0.0", {
-          "packageLocation": "./.yarn/cache/postcss-browser-comments-npm-4.0.0-ad08f76065-9b8e709483.zip/node_modules/postcss-browser-comments/",
-          "packageDependencies": [
-            ["postcss-browser-comments", "npm:4.0.0"]
-          ],
-          "linkType": "SOFT",
-        }],
-        ["virtual:985449bc75c3824fda197f672a4181c66c0a2686cde3dac15f7cb16fd963f3c99171419d6d8c8d5786101e20376587d95cd0f52ac43952cf9624ec8056565b75#npm:4.0.0", {
-          "packageLocation": "./.yarn/__virtual__/postcss-browser-comments-virtual-f11afa1429/0/cache/postcss-browser-comments-npm-4.0.0-ad08f76065-9b8e709483.zip/node_modules/postcss-browser-comments/",
-          "packageDependencies": [
-            ["postcss-browser-comments", "virtual:985449bc75c3824fda197f672a4181c66c0a2686cde3dac15f7cb16fd963f3c99171419d6d8c8d5786101e20376587d95cd0f52ac43952cf9624ec8056565b75#npm:4.0.0"],
-            ["@types/browserslist", null],
-            ["@types/postcss", null],
-            ["browserslist", null],
-            ["postcss", "npm:8.3.11"]
-          ],
-          "packagePeers": [
-            "@types/browserslist",
-            "@types/postcss",
-            "browserslist",
-            "postcss"
-          ],
-          "linkType": "HARD",
-        }],
         ["virtual:edc2aae022a5ae3ad3cde454decf83db6e3b98174f565cc27b55a9703432cb3eee3ace6fafb650622d909bc7e0eb59c608087cf85f1ca48fd08581af3584b1a6#npm:3.0.0", {
           "packageLocation": "./.yarn/__virtual__/postcss-browser-comments-virtual-cbb6309af1/0/cache/postcss-browser-comments-npm-3.0.0-2f703f7a0e-6e8cfae4c7.zip/node_modules/postcss-browser-comments/",
           "packageDependencies": [
@@ -28231,13 +28200,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         }]
       ]],
       ["postcss-normalize", [
-        ["npm:10.0.1", {
-          "packageLocation": "./.yarn/cache/postcss-normalize-npm-10.0.1-f2f3d55340-af67ade84e.zip/node_modules/postcss-normalize/",
-          "packageDependencies": [
-            ["postcss-normalize", "npm:10.0.1"]
-          ],
-          "linkType": "SOFT",
-        }],
         ["npm:8.0.1", {
           "packageLocation": "./.yarn/cache/postcss-normalize-npm-8.0.1-edc2aae022-3109075389.zip/node_modules/postcss-normalize/",
           "packageDependencies": [
@@ -28247,26 +28209,6 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["postcss", "npm:7.0.39"],
             ["postcss-browser-comments", "virtual:edc2aae022a5ae3ad3cde454decf83db6e3b98174f565cc27b55a9703432cb3eee3ace6fafb650622d909bc7e0eb59c608087cf85f1ca48fd08581af3584b1a6#npm:3.0.0"],
             ["sanitize.css", "npm:10.0.0"]
-          ],
-          "linkType": "HARD",
-        }],
-        ["virtual:e39e6f7b80c364d2b2d86942b9327a194dd32b9253b61b3dbefb372e9915b448e98b6642dbbb6a6c40e0ebce5446bf3cdd4c0f2af9ab2089fc965bf16febee78#npm:10.0.1", {
-          "packageLocation": "./.yarn/__virtual__/postcss-normalize-virtual-985449bc75/0/cache/postcss-normalize-npm-10.0.1-f2f3d55340-af67ade84e.zip/node_modules/postcss-normalize/",
-          "packageDependencies": [
-            ["postcss-normalize", "virtual:e39e6f7b80c364d2b2d86942b9327a194dd32b9253b61b3dbefb372e9915b448e98b6642dbbb6a6c40e0ebce5446bf3cdd4c0f2af9ab2089fc965bf16febee78#npm:10.0.1"],
-            ["@csstools/normalize.css", "npm:12.0.0"],
-            ["@types/browserslist", null],
-            ["@types/postcss", null],
-            ["browserslist", null],
-            ["postcss", "npm:8.3.11"],
-            ["postcss-browser-comments", "virtual:985449bc75c3824fda197f672a4181c66c0a2686cde3dac15f7cb16fd963f3c99171419d6d8c8d5786101e20376587d95cd0f52ac43952cf9624ec8056565b75#npm:4.0.0"],
-            ["sanitize.css", "npm:13.0.0"]
-          ],
-          "packagePeers": [
-            "@types/browserslist",
-            "@types/postcss",
-            "browserslist",
-            "postcss"
           ],
           "linkType": "HARD",
         }]
