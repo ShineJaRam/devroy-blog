@@ -5,6 +5,8 @@ import { Global } from "@emotion/react";
 import { Provider } from "react-redux";
 import store from "~store/configureStore";
 import "tailwindcss/tailwind.css";
+import "~styles/normalize.css";
+import "~styles/sanitize.css";
 
 function MyApp({ Component, pageProps }: AppProps) {
   return (

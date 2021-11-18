@@ -14759,6 +14759,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["cypress", "npm:9.0.0"],
             ["eslint", "npm:7.32.0"],
             ["eslint-config-next", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:12.0.4"],
+            ["eslint-config-react", "npm:1.1.7"],
             ["lodash", "npm:4.17.21"],
             ["next", "virtual:36a01d8083315b8a6e8362097258ea8bc0f9dfb672cb210742e054760850c673a1038f542a6b7156397b5275ace8ee0482231cac5e8898044fa1a1c29f78ee5b#npm:12.0.4"],
             ["normalize.css", "npm:8.0.1"],
@@ -18772,6 +18773,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             "eslint",
             "next",
             "typescript"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["eslint-config-react", [
+        ["npm:1.1.7", {
+          "packageLocation": "./.yarn/cache/eslint-config-react-npm-1.1.7-6e3860b2e1-15d3d7f78e.zip/node_modules/eslint-config-react/",
+          "packageDependencies": [
+            ["eslint-config-react", "npm:1.1.7"]
           ],
           "linkType": "HARD",
         }]
