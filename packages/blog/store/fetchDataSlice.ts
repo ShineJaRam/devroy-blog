@@ -31,7 +31,8 @@ export const dataSlice = createSlice({
     getDataError: (state, action) => {
       state.isLoading = false;
       state.error = true;
-      state.data = action.payload;
+      state.data = [];
+      console.log("에러 메세지", action.payload);
     }
   }
 });
