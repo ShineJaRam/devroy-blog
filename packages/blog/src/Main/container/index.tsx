@@ -4,7 +4,6 @@ import tw from "twin.macro";
 import { fetchDataActions } from "~store/fetchDataSlice";
 import { useSelector } from "react-redux";
 import { RootState, useAppDispatch } from "~store/configureStore";
-import * as process from "process";
 
 const StyledMain = styled.section`
   ${tw`flex justify-center items-center h-full flex-col`}
