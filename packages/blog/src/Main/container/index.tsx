@@ -20,9 +20,6 @@ const Main: VFC = () => {
     dispatch(fetchDataActions.getData());
   }, []);
 
-  console.log("데이터 최종 확인", state);
-  console.log(process.env.NEXT_PUBLIC_API_KEY);
-
   return (
     <StyledMain>
       <h1>개발자 임수현의 블로그에 오신 것을 환영합니다.</h1>
@@ -32,6 +29,7 @@ const Main: VFC = () => {
         {state.data.map((element, idx) => {
           return <p key={idx}>{element.title}</p>;
         })}
+        {state.error && <p>에러가 발생했습니다.</p>}
       </article>
     </StyledMain>
   );
