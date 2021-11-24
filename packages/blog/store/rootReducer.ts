@@ -1,10 +1,10 @@
 import { combineReducers } from "redux";
-import defaultData, { DataInterface } from "./fetchDataSlice";
+import newsSlice, { NewsData } from "./news/newsSlice";
 
 export interface RootState {
-  defaultData: DataInterface;
+  newsData: NewsData;
 }
 
 export const rootReducer = combineReducers({
-  data: defaultData
+  news: newsSlice
 });

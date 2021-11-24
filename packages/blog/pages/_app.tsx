@@ -3,7 +3,7 @@ import Head from "next/head";
 import globalStyle from "~styles/globalStyles";
 import { Global } from "@emotion/react";
 import { Provider } from "react-redux";
-import store from "~store/configureStore";
+import store from "~store/rootStore";
 import "tailwindcss/tailwind.css";
 import "normalize.css";
 import "sanitize.css";

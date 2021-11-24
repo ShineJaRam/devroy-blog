@@ -1,11 +1,11 @@
 import createSagaMiddleware from "redux-saga";
 import { all, call } from "redux-saga/effects";
-import watchGetData from "~store/fetchDataSaga";
+import watchGetNews from "./news/newsSaga";
 
 const sagaMiddleware = createSagaMiddleware();
 
 export function* rootSaga() {
-  yield all([call(watchGetData)]);
+  yield all([call(watchGetNews)]);
 }
 
 export default sagaMiddleware;

@@ -19,9 +19,8 @@
       "~src/*": ["src/*"],
       "~styles/*": ["styles/*"],
       "~store/*": ["store/*"],
-      "~shared/*": ["shared/*"],
-      "~api/*": ["shared/api/*"],
-      "~models/*": ["shared/models/*"]
+      "~api/*": ["pages/api/*"],
+      "~models/*": ["models/*"]
     }
   },
   "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx"],
