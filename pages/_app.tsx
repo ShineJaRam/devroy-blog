@@ -7,8 +7,9 @@ import store from "~store/rootStore";
 import "tailwindcss/tailwind.css";
 import "normalize.css";
 import "sanitize.css";
+import { SessionProvider } from "next-auth/react";
 
-function MyApp({ Component, pageProps }: AppProps) {
+function MyApp({ Component, pageProps: { session, ...pageProps } }: AppProps) {
   return (
     <>
       <Head>
@@ -16,8 +17,10 @@ function MyApp({ Component, pageProps }: AppProps) {
         <meta name="description" content="개발자 임수현의 블로그입니다." />
       </Head>
       <Provider store={store}>
-        <Global styles={globalStyle} />
-        <Component {...pageProps} />
+        <SessionProvider session={session}>
+          <Global styles={globalStyle} />
+          <Component {...pageProps} />
+        </SessionProvider>
       </Provider>
     </>
   );
